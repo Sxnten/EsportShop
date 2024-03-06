@@ -1,0 +1,289 @@
+.body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+.form-control{
+    background: transparent;
+    border: transparent;
+    color: black;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.FlexContainerOben {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.FlexContainerOben div {
+    width: 250px;
+    height: 250px;
+    margin: 21px;
+    box-shadow: 10px 20px 15px silver;
+	border-radius: 20px;
+    
+    
+}
+h1{
+    text-align: center;
+    font-weight: 300%;
+}
+
+h2{
+    text-align: center;
+    font-weight: 300%;
+}
+
+h3{
+    text-align: center;
+    font-weight: 300%;
+}
+
+h5{
+    text-align: center;
+    font-weight: 300%;
+}
+
+
+.Unterschrifft{
+    font-size: medium;
+    text-align: center;
+}
+
+
+.FlexUnterOben {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.FlexUnterOben div {
+    width: 250px;
+    height: 130px;
+    margin: 21px;
+    text-align:center;
+    font-weight:600  ;
+    border: 1px solid purple;
+    box-shadow: 10px 20px 15px 10px purple;
+    border-radius: 5%;
+    background-color: pink;
+    
+}
+
+
+
+.Angebot{
+    color:red
+}
+
+.AngebotPro{
+    text-decoration: line-through;
+}
+
+li{
+    font-weight: 600;
+}
+
+
+    .UntenButton {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        height: 200px;
+        overflow: auto;
+        flex-direction: row;
+        gap: 180px;
+    }
+    
+    .UntenButton div {
+        width: 250px;
+        height: 50px;
+        margin: 21px;
+        text-align:center;
+        font-weight:600  ;
+        box-shadow: 20px  purple;
+        box-shadow: 10px 10px 10px 10px pink;
+        border-radius: 5%;
+
+    
+       
+    }
+    
+
+
+.btn{
+    background-color:white;
+    color: black;
+}
+
+.AnsGrid {
+
+    display: flex;
+         
+
+    
+    height: 300px;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .AnsGrid > div{
+    
+    border: 3px solid rgb(133, 79, 125);
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+  .AnsGrid1{ 
+    width: 300px;
+    margin-left: 200px;
+    
+  }
+			
+  .AnsGrid2{
+    width: 1600px;
+    margin-right: 200px;
+    font-size:25px;
+  }
+
+  .AnsBilder {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    flex-direction: row;
+    gap: 180px;
+    
+    
+}
+
+.AnsBilder div {
+    width: 250px;
+    height: 250px;
+    margin: 21px;
+    box-shadow: 10px 20px 15px silver;
+	border-radius: 20px;
+    
+    
+    
+}
+
+.AnsText {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.AnsText div {
+    width: 250px;
+    height: 130px;
+    margin: 21px;
+    text-align:center;
+    font-weight:600  ;
+    border: 1px solid rgb(133, 79, 125);
+    box-shadow: 10px 20px 15px 10px purple;
+    border-radius: 5%;
+    background-color: pink;
+    
+}
+
+.AnsButton {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.AnsButton div {
+    width: 250px;
+    height: 50px;
+    margin: 21px;
+    text-align:center;
+    font-weight:600  ;
+    box-shadow: 10px 10px 10px 10px pink;
+   
+}
+	button{
+        width: 250px;
+        height: 50px;
+        background-color: purple;  
+        font-weight: 600;
+        color: white;
+        border: none;
+    }
+
+    .EinkaufswagenGrid {
+
+        display: flex;
+             
+    
+        
+        height: 500px;
+        padding: 15px;
+        gap: 5px;
+    
+      }
+    
+      .EinkaufswagenGrid > div{
+        
+        border: 3px solid rgb(133, 79, 125);
+        border-radius: 5px;
+        padding: 8px;
+      }
+    
+    
+      .EinkaufswagenGrid1{ 
+        width: 1200px;
+        margin-left: 200px;
+        font-size: 20px;
+        
+      }
+                
+      .EinkaufswagenGrid2{
+        width: 200px;
+        margin-right: 200px;
+        text-align: center;
+        font-size: 20px;
+      }
